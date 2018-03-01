@@ -113,11 +113,15 @@ a:hover {
 }
 
 .mamba {
-	color:white;
-	background-color: #434a52;
+	color: gold;
 	padding: 18% 24%;
 	border-top: 10px solid purple;
 	margin: 105px 0 60px;
+	background: #434a52 url('../img/finals.png') no-repeat center;
+	background-size: cover;
+	box-sizing: border-box;        
+
+
 }
 
 .arrow {
