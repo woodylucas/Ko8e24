@@ -1,0 +1,126 @@
+/* BASIC STYLE */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	color: #878787;
+	margin: 0;
+	font: normal 1em/1.5 "Helvetica Neue", Helvetica, Arial, san-serif;
+}
+
+
+
+h1 {
+	font-size: 5.625rem;
+	color: white;
+	text-transform: uppercase;
+	font-weight: normal;
+	line-height: 1.3;
+
+}
+
+h2 {
+	font-size: 3.3125em;
+	text-decoration: underline;
+	color: grey;
+	font-weight: normal;
+	line-height: 1.1;
+	margin-bottom: .5em; 
+}
+
+h3 {
+	font-size: 1.23em;
+	color: white;
+	line-height: 1.2;
+	margin-bottom: 1.7em;
+}
+
+img {
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+/*
+li {
+	display: inline-block;
+	padding: 0 12px;
+	border-right: solid 1px;
+	margin: 80px 0;
+}
+*/
+/* Main Styles --------------------- */
+.main-header {
+	padding-top: 170px;
+	height: 850px;
+	background: purple url('../img/young-kobe.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.title {
+	color: white;
+	font-size: 1.625rem;
+}
+
+.primary-content,
+.main-header,
+.main-footer {
+	text-align: center;
+}
+
+.secondary-content {
+
+}
+
+.t-border {
+	border-top: 2px solid lightgrey;
+}
+
+.mambaout {
+	font-size: 1.25em;
+	border-bottom: 3px solid;
+	padding: 0 9px 3px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.main-footer {
+	padding-top: 60px;
+	padding-top: 60px;
+	border-bottom: solid 10px purple;
+}
+/* Pseudo-classes ------------------ */
+a:link {
+	color: rgb(255, 215, 0);
+	text-decoration: none;
+	
+}
+
+a:visted {
+	color: lightblue;
+}
+
+a:hover {
+	color: purple;
+}
+
+/* Layout Styles ------------------ */
+.primary-content,
+.secondary-content {
+	width: 75%;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: auto;
+	max-width: 900px;
+}
+
+.mamba {
+	color:white;
+	background-color: #434a52;
+	padding: 18% 24%;
+	border-top: 10px solid purple;
+	margin: 105px 0 60px;
+}
+
+.arrow {
+	width: 50px;
+
+}
