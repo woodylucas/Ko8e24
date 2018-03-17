@@ -53,7 +53,9 @@ li {
 .main-header {
 	padding-top: 170px;
 	height: 850px;
-	background: purple url('../img/young-kobe.jpg') no-repeat center;
+	background: linear-gradient(#434a52, transparent 20%),
+	            linear-gradient(10deg, #434a52, transparent),
+	purple url('../img/young-kobe.jpg') no-repeat center;
 	background-size: cover;
 }
 
@@ -118,12 +120,15 @@ a:hover {
 }
 
 .mamba {
-	color: white;
+	color: #fff;
 	text-align: left;
 	padding: 18% 24%;
 	border-top: 10px solid purple;
 	margin: 105px 0 60px;
-	background: linear-gradient(black, transparent 180%), #434a52  url('../img/finals.png') no-repeat center;
+	background: linear-gradient(#000, transparent 180%),
+              linear-gradient(10deg, #434a52, transparent),
+	#434a52  url('../img/finals.png') no-repeat center;
+	            
 	background-size: cover;
 	box-sizing: border-box; 
 	box-shadow: inset 0 0 50px 10px rgba(0, 0, 0, .8);    
