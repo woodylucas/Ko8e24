@@ -53,8 +53,8 @@ li {
 .main-header {
 	padding-top: 170px;
 	height: 850px;
-	background: linear-gradient(#434a52, transparent 20%),
-	            linear-gradient(10deg, #434a52, transparent),
+	background: linear-gradient(gray, transparent 0%),
+	            linear-gradient(33deg, #4B0082, transparent),
 	purple url('../img/young-kobe.jpg') no-repeat center;
 	background-size: cover;
 }
@@ -125,7 +125,7 @@ a:hover {
 	padding: 18% 24%;
 	border-top: 10px solid purple;
 	margin: 105px 0 60px;
-	background: linear-gradient(#000, transparent 180%),
+	background: linear-gradient(#000, transparent 100%),
               linear-gradient(10deg, #434a52, transparent),
 	#434a52  url('../img/finals.png') no-repeat center;
 	            
