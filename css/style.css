@@ -178,7 +178,7 @@ a:hover {
 @media (max-width: 768px) {
   .primary-content,
 	.secondary-content {
-		width: 100%;
+		width: 90%;
 		padding: 20px;
 		border-top: none;
 	}
